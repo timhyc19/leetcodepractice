@@ -1,3 +1,6 @@
+# Total Count:
+## 4/75
+
 # Arrays
 - Two Sum **(Done)**
 - Best Time to Buy and Sell Stock
@@ -5,7 +8,7 @@
 - Product of Array Except Self 
 - Maximum Subarray 
 - Maximum Product Subarray
-- Find Minimum in Rotated Sorted Array 
+- Find Minimum in Rotated Sorted Array **(Done)**
 - Search in Rotated Sorted Array **(Done)**
 - 3 Sum
 - Container With Most Water **(Done)**
