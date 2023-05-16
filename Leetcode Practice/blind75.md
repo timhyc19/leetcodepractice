@@ -1,10 +1,10 @@
 # Total Count:
-## 4/75
+## 6/75
 
 # Arrays
 - Two Sum **(Done)**
-- Best Time to Buy and Sell Stock
-- Contains Duplicate 
+- Best Time to Buy and Sell Stock **(Done)**
+- Contains Duplicate **(Done)**
 - Product of Array Except Self 
 - Maximum Subarray 
 - Maximum Product Subarray
