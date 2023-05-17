@@ -1,11 +1,11 @@
 # Total Count:
-## 6/75
+## 7/75
 
 # Arrays
 - Two Sum **(Done)**
 - Best Time to Buy and Sell Stock **(Done)**
 - Contains Duplicate **(Done)**
-- Product of Array Except Self 
+- Product of Array Except Self **(Done)**
 - Maximum Subarray 
 - Maximum Product Subarray
 - Find Minimum in Rotated Sorted Array **(Done)**
