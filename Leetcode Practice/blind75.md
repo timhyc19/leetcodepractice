@@ -1,5 +1,5 @@
 # Total Count:
-## 7/75
+## 9/75
 
 # Arrays
 - Two Sum **(Done)**
@@ -7,7 +7,7 @@
 - Contains Duplicate **(Done)**
 - Product of Array Except Self **(Done)**
 - Maximum Subarray 
-- Maximum Product Subarray
+- Maximum Product Subarray **(Done)**
 - Find Minimum in Rotated Sorted Array **(Done)**
 - Search in Rotated Sorted Array **(Done)**
 - 3 Sum
@@ -94,5 +94,5 @@
 
 # Heap
 - Merge K Sorted Lists
-- Top K Frequent Elements
+- Top K Frequent Elements **(Done)**
 - Find Median from Data Stream
