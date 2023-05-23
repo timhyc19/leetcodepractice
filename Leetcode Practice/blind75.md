@@ -22,7 +22,7 @@
 
 # Dynamic Programming
 - Climbing Stairs
-- Coin Change
+- Coin Change **(Done)**
 - Longest Increasing Subsequence
 - Longest Common Subsequence
 - Word Break Problem
