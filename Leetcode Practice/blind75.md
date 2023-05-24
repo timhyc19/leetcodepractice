@@ -1,10 +1,10 @@
 # Total Count:
-## 9/75
+## 12/75
 
 # Arrays
 - Two Sum **(Done)**
 - Best Time to Buy and Sell Stock **(Done)**
-- Contains Duplicate **(Done)**
+- Contains Duplicate **(Doneß)**
 - Product of Array Except Self **(Done)**
 - Maximum Subarray 
 - Maximum Product Subarray **(Done)**
@@ -21,9 +21,9 @@
 - Reverse Bits
 
 # Dynamic Programming
-- Climbing Stairs
+- Climbing Stairs **(Done)**
 - Coin Change **(Done)**
-- Longest Increasing Subsequence
+- Longest Increasing Subsequence **(Done)**
 - Longest Common Subsequence
 - Word Break Problem
 - Combination Sum
