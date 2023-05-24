@@ -1,10 +1,10 @@
 # Total Count:
-## 12/75
+## 13/75
 
 # Arrays
 - Two Sum **(Done)**
 - Best Time to Buy and Sell Stock **(Done)**
-- Contains Duplicate **(Doneß)**
+- Contains Duplicate **(Done)**
 - Product of Array Except Self **(Done)**
 - Maximum Subarray 
 - Maximum Product Subarray **(Done)**
@@ -24,8 +24,8 @@
 - Climbing Stairs **(Done)**
 - Coin Change **(Done)**
 - Longest Increasing Subsequence **(Done)**
-- Longest Common Subsequence
-- Word Break Problem
+- Longest Common Subsequence **(Done)**
+- Word Break Problem **(Done)**
 - Combination Sum
 - House Robber
 - House Robber II
