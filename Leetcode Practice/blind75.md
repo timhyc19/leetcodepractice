@@ -1,5 +1,5 @@
 # Total Count:
-## 13/75
+## 14/75
 
 # Arrays
 - Two Sum **(Done)**
