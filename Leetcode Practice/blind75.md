@@ -1,5 +1,5 @@
 # Total Count:
-## 14/75
+## 15/75
 
 # Arrays
 - Two Sum **(Done)**
@@ -81,7 +81,7 @@
 - Same Tree
 - Invert/Flip Binary Tree
 - Binary Tree Maximum Path Sum
-- Binary Tree Level Order Traversal
+- Binary Tree Level Order Traversal **(Done)**
 - Serialize and Deserialize Binary Tree
 - Subtree of Another Tree
 - Construct Binary Tree from Preorder and Inorder Traversal
