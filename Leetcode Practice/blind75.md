@@ -1,5 +1,5 @@
 # Total Count:
-## 15/75
+## 19/75
 
 # Arrays
 - Two Sum **(Done)**
@@ -65,7 +65,7 @@
 - Word Search
 
 # String
-- Longest Substring Without Repeating Characters
+- Longest Substring Without Repeating Characters **(Done)**
 - Longest Repeating Character Replacement
 - Minimum Window Substring
 - Valid Anagram
@@ -77,9 +77,9 @@
 - Encode and Decode Strings (Leetcode Premium)
 
 # Tree
-- Maximum Depth of Binary Tree
-- Same Tree
-- Invert/Flip Binary Tree
+- Maximum Depth of Binary Tree **(Done)**
+- Same Tree **(Done)**
+- Invert/Flip Binary Tree **(Done)**
 - Binary Tree Maximum Path Sum
 - Binary Tree Level Order Traversal **(Done)**
 - Serialize and Deserialize Binary Tree
