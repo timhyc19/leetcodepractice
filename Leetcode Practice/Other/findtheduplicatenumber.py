@@ -10,3 +10,5 @@ class Solution(object):
                 return i
             nums[i] = -nums[i]
         
+
+        
