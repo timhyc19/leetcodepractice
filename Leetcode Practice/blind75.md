@@ -1,5 +1,5 @@
 # Total Count:
-## 19/75
+## 20/75
 
 # Arrays
 - Two Sum **(Done)**
@@ -71,7 +71,7 @@
 - Valid Anagram
 - Group Anagrams
 - Valid Parentheses
-- Valid Palindrome
+- Valid Palindrome **(Done)**
 - Longest Palindromic Substring
 - Palindromic Substrings
 - Encode and Decode Strings (Leetcode Premium)
