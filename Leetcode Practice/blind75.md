@@ -66,7 +66,7 @@
 
 # String
 - Longest Substring Without Repeating Characters **(Done)**
-- Longest Repeating Character Replacement
+- Longest Repeating Character Replacement **(Done)**
 - Minimum Window Substring
 - Valid Anagram
 - Group Anagrams
