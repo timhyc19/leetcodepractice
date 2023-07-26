@@ -1,5 +1,5 @@
 # Total Count:
-## 61/150
+## 62/150
 # Arrays and Hashing
 - Contains Duplicate **(Done)**	
 - Valid Anagram	**(Done)**	
@@ -16,7 +16,7 @@
 - Two Sum II Input Array Is Sorted **(Done)**
 - 3Sum **(Done)**
 - Container With Most Water **(Done)**
-- Trapping Rain Wate **(Done)**
+- Trapping Rain Water **(Done)**
 
 # Sliding Window
 - Best Time to Buy And Sell Stock **(Done)**
