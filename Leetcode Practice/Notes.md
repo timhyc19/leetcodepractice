@@ -1,6 +1,6 @@
-### Cumulation of Notes for Neetcode 150
+# Cumulation of Notes for Neetcode 150
 
-### Arrays and Hashing
+# Arrays and Hashing
 - Lists are useful for values mapping to index
 - Python lists have the following time complexities:
 ```
@@ -49,55 +49,55 @@ delete item         |       O(1)       |
 2. When using dictionary, you can make value a list 
 ```
 
-### Two Pointers
+# Two Pointers
 
 
-### Sliding WIndow
+# Sliding WIndow
 
 
-### Stack
+# Stack
 
 
-### Binary Search
+# Binary Search
 
 
-### Linked List
+# Linked List
 
 
-### Trees
+# Trees
 
 
-### Tries
+# Tries
 
 
-### Heap / Priority Queue
+# Heap / Priority Queue
 
 
-### Backtracking
+# Backtracking
 
 
-### Graphs
+# Graphs
 
 
-### Advanced Graphs
+# Advanced Graphs
 
 
-### 1-D Dynamic Programming
+# 1-D Dynamic Programming
 
 
-### 2-D Dynamic Programming
+# 2-D Dynamic Programming
 
 
-### Greedy
+# Greedy
 
 
-### Intervals
+# Intervals
 
 
-### Math and Geometry
+# Math and Geometry
 
 
-### Bit Manipulation
+# Bit Manipulation
 
 
 
