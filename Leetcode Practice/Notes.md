@@ -448,7 +448,14 @@ class Twitter:
 
 
 # Backtracking
+- Backtracking usually involves decision tree, and making choices (choose or not choose)
+```
+- Subsets
+- Combination Sum
+- Permutations
 
+For these questions (so far), draw out the tree, find the choose or not choose case (or logical way to get to output)
+```
 
 # Graphs
 

@@ -1,5 +1,5 @@
 # Total Count:
-## 62/150
+## 65/150
 # Arrays and Hashing
 - Contains Duplicate **(Done)**	
 - Valid Anagram	**(Done)**	
@@ -89,9 +89,9 @@
 - Find Median From Data Stream **(Done)** 
 
 # Backtracking
-- Subsets	
-- Combination Sum	
-- Permutations	
+- Subsets **(Done)**
+- Combination Sum **(Done)**
+- Permutations **(Done)**
 - Subsets II	
 - Combination Sum II	
 - Word Search	
