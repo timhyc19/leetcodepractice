@@ -328,9 +328,123 @@ class Solution:
 ```
 
 # Tries
+- Trie is a data structure that looks like a tree, where the children are nodes that connect to other nodes indefinitely. Good for searching words (if I have "alphabet", and "alpine", a-->l-->p will have 2 children h and i)
+
+- Good system design question for Tries:
+```
+Design Add and Seach Words Data Structure
+
+# Define a node class that has a child dictionary, 
+# along with boolean to see if its a word or not
+
+class Node():
+    def __init__(self):
+        self.children = {}
+        self.word = False
+
+class WordDictionary:
+
+    def __init__(self):
+        self.root = Node()
+
+    # define temp node, traverse through word and add, and then assign last node.word = True
+    def addWord(self, word: str) -> None:
+        node = self.root
+        for c in word:
+            if c not in node.children:
+                node.children[c] = Node()
+            node = node.children[c]
+        node.word = True
+        
+
+    def search(self, word: str) -> bool:
+        def dfs(node, j):
+            for i in range(j, len(word)):
+                c = word[i]
+                if c == ".":
+                    for child in node.children.values():
+                        if dfs(child, i + 1): return True
+                    return False
+                else:
+                    if c not in node.children:
+                        return False
+                    node = node.children[c]
+            return node.word
+        
+        return dfs(self.root, 0)
+
+
+# Your WordDictionary object will be instantiated and called as such:
+# obj = WordDictionary()
+# obj.addWord(word)
+# param_2 = obj.search(word)
+```
 
 
 # Heap / Priority Queue
+- Heaps / Priority Queue are tree like structures that have children always smaller than or greater than the parent 
+- Smaller children than the parent means it is a max heap
+- Greater children than the parent means it is a min heap (default python)
+```
+Operation (heap)         |    Time Complexity   | 
+heapq.heappush()         |       O(log n)       |     
+heapq.heapify()          |       O(n)           |   
+heapq.heappop()          |       O(log n)       |
+
+Note: Pushing & popping requires fix-down / fix-up, which is traversing tree --> O(log n)
+```
+
+- Good system design question for Heap / Priority Queue:
+```
+Design Twitter
+
+class Twitter:
+
+    def __init__(self):
+        self.time = 0
+        self.users = defaultdict(set) # key: user, val: set of users
+        self.tweets = defaultdict(set) # key: user, value: set of tweets 
+
+    def postTweet(self, userId: int, tweetId: int) -> None:
+        self.tweets[userId].add((self.time, tweetId))
+        self.time -= 1
+        
+
+    def getNewsFeed(self, userId: int) -> List[int]:
+        self.users[userId].add(userId)
+        following = self.users[userId]
+        heap = []
+        res = []
+        heapq.heapify(heap)
+        for user in following:
+            tweets = self.tweets[user]
+            for tweet in tweets:
+                heapq.heappush(heap, [tweet[0], tweet[1]])
+        
+        while heap and len(res) < 10:
+            val = heapq.heappop(heap)
+            res.append(val[1])
+
+        
+        return res
+
+    def follow(self, followerId: int, followeeId: int) -> None:
+        self.users[followerId].add(followeeId)
+        
+
+    def unfollow(self, followerId: int, followeeId: int) -> None:
+        if followeeId in self.users[followerId]:
+            self.users[followerId].remove(followeeId)
+
+
+
+# Your Twitter object will be instantiated and called as such:
+# obj = Twitter()
+# obj.postTweet(userId,tweetId)
+# param_2 = obj.getNewsFeed(userId)
+# obj.follow(followerId,followeeId)
+# obj.unfollow(followerId,followeeId)
+```
 
 
 # Backtracking
