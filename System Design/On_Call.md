@@ -9,3 +9,7 @@
 
 - Other ways to have solved the problem could have been keeping some instances "warm" (ready to handle requests), or more long term solutions would be writing the pipelines in more fast processing languages like Golang. 
 ```
+
+```
+Other simple on call tasks included helping non data-platform members gain access to gcp resources (again, terraform), running scheduler recommender (Airflow dag)
+```
