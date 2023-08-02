@@ -448,16 +448,66 @@ class Twitter:
 
 
 # Backtracking
-- Backtracking usually involves decision tree, and making choices (choose or not choose)
+- Backtracking is a general algorithm for finding solutions to some computational problem, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidates ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution
+
+- It usually involves drawing out the decision tree, and making choices (choose or not choose)
+- Make sure that the choices (conditionals) take into account all cases when calling recursion
+
 ```
-- Subsets
-- Combination Sum
+- Subsets & Subsets II
+- Combination Sum & Combination Sum II
 - Permutations
 
-For these questions (so far), draw out the tree, find the choose or not choose case (or logical way to get to output)
+- For these questions (so far), draw out the tree, find the choose or not choose case (or logical way to get to output)
+- Some of them also include loops inside dfs; looping through original input for all possibilities, rather than going through JUST the index of the input
 ```
 
 # Graphs
+Understanding DFS vs BFS:
+1. Depth-First Search is an edge based technique, that uses a Stack data structure and performs two stages; first visited vertices are pushed on to the stack, and second if there are no vertices then visited vertices are popped
+
+2. Breadth-First Search is a vertex based technique for finding the shortest path in the graph. It uses a Queue data structure that follows first in, first out. One vertex is selected at a time when it is visited, and marked. Then, its adjacent are visited and stored in the queue. 
+```
+Good Question for BFS: Number of Islands
+
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if not grid:
+            return 0
+        
+        islands = 0
+        rows, cols = len(grid), len(grid[0])
+        visited = set() # (r, c)
+
+        def bfs(r, c):
+            # initialize q, which holds the nodes that we have to visit
+            q = deque()
+            q.append((r, c))
+            visited.add((r, c))
+            while q:
+                row, col = q.popleft()
+                directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+                for dr, dc in directions:
+                    r, c = row + dr, col + dc
+                    if (r in range(rows) and c in range(cols)
+                    and (r, c) not in visited and grid[r][c] == "1"):
+                        visited.add((r, c))
+                        q.append((r, c))
+
+
+
+        for r in range(rows):
+            for c in range(cols):
+                if grid[r][c] == "1" and (r, c) not in visited:
+                    # check all the neighbours that are 1's, and mark as visited
+                    bfs(r, c)
+
+                    # increment islands
+                    islands += 1
+        
+        return islands
+
+```
 
 
 # Advanced Graphs

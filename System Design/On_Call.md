@@ -12,4 +12,6 @@
 
 ```
 Other simple on call tasks included helping non data-platform members gain access to gcp resources (again, terraform), running scheduler recommender (Airflow dag)
+
+Another was helping another member validate a SQL query (go through step by step)
 ```

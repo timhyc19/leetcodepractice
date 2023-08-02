@@ -1,5 +1,5 @@
 # Total Count:
-## 65/150
+## 70/150
 # Arrays and Hashing
 - Contains Duplicate **(Done)**	
 - Valid Anagram	**(Done)**	
@@ -92,11 +92,11 @@
 - Subsets **(Done)**
 - Combination Sum **(Done)**
 - Permutations **(Done)**
-- Subsets II	
-- Combination Sum II	
-- Word Search	
-- Palindrome Partitioning	
-- Letter Combinations of a Phone Number	
+- Subsets II **(Done)**	
+- Combination Sum II **(Done)**	
+- Word Search **(Done)**	
+- Palindrome Partitioning **(Done)**	
+- Letter Combinations of a Phone Number **(Done)**	
 - N Queens
 
 # Graphs
