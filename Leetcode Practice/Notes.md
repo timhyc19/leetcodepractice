@@ -468,19 +468,23 @@ Understanding DFS vs BFS:
 
 2. Breadth-First Search is a vertex based technique for finding the shortest path in the graph. It uses a Queue data structure that follows first in, first out. One vertex is selected at a time when it is visited, and marked. Then, its adjacent are visited and stored in the queue. 
 ```
-Good Question for BFS: Number of Islands
+Good Question for Looking at both DFS and BFS: Number of Islands
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        if not grid:
-            return 0
-        
-        islands = 0
         rows, cols = len(grid), len(grid[0])
-        visited = set() # (r, c)
+        visited = set() # store (r, c)
 
+        def dfs(r, c):
+            if (r, c) in visited or r < 0 or c < 0 or r == rows or c == cols or grid[r][c] != "1":
+                return
+            visited.add((r, c))
+            dfs(r + 1, c)
+            dfs(r - 1, c)
+            dfs(r, c + 1)
+            dfs(r, c - 1)
+        
         def bfs(r, c):
-            # initialize q, which holds the nodes that we have to visit
             q = deque()
             q.append((r, c))
             visited.add((r, c))
@@ -489,24 +493,18 @@ class Solution:
                 directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
                 for dr, dc in directions:
                     r, c = row + dr, col + dc
-                    if (r in range(rows) and c in range(cols)
-                    and (r, c) not in visited and grid[r][c] == "1"):
+                    if (r in range(rows) and c in range(cols) and grid[r][c] == "1" and (r, c) not in visited):
                         visited.add((r, c))
                         q.append((r, c))
 
-
-
+        islands = 0
         for r in range(rows):
             for c in range(cols):
-                if grid[r][c] == "1" and (r, c) not in visited:
-                    # check all the neighbours that are 1's, and mark as visited
+                if (r, c) not in visited and grid[r][c] == "1":
                     bfs(r, c)
-
-                    # increment islands
                     islands += 1
         
         return islands
-
 ```
 
 

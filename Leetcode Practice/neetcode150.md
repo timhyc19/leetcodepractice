@@ -1,5 +1,5 @@
 # Total Count:
-## 70/150
+## 75/150
 # Arrays and Hashing
 - Contains Duplicate **(Done)**	
 - Valid Anagram	**(Done)**	
@@ -100,12 +100,12 @@
 - N Queens
 
 # Graphs
-- Number of Islands	
-- Clone Graph	
-- Max Area of Island	
-- Pacific Atlantic Water Flow	
-- Surrounded Regions	
-- Rotting Oranges	
+- Number of Islands	**(Done)**	
+- Clone Graph **(Done)**	
+- Max Area of Island **(Done)**		
+- Pacific Atlantic Water Flow **(Done)**
+- Surrounded Regions **(Done)**
+- Rotting Oranges 
 - Walls And Gates   	
 - Course Schedule	
 - Course Schedule II	
