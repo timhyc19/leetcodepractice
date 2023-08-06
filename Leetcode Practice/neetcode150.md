@@ -1,5 +1,5 @@
 # Total Count:
-## 76/150
+## 78/150
 # Arrays and Hashing
 - Contains Duplicate **(Done)**	
 - Valid Anagram	**(Done)**	
@@ -107,8 +107,8 @@
 - Surrounded Regions **(Done)**
 - Rotting Oranges **(Done)** 
 - Walls And Gates   	
-- Course Schedule	
-- Course Schedule II	
+- Course Schedule **(Done)** 
+- Course Schedule II **(Done)** 
 - Redundant Connection	
 - Number of Connected Components In An Undirected Graph   	
 - Graph Valid Tree   	
