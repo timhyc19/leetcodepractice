@@ -1,5 +1,5 @@
 # Total Count:
-## 75/150
+## 76/150
 # Arrays and Hashing
 - Contains Duplicate **(Done)**	
 - Valid Anagram	**(Done)**	
@@ -105,7 +105,7 @@
 - Max Area of Island **(Done)**		
 - Pacific Atlantic Water Flow **(Done)**
 - Surrounded Regions **(Done)**
-- Rotting Oranges 
+- Rotting Oranges **(Done)** 
 - Walls And Gates   	
 - Course Schedule	
 - Course Schedule II	
